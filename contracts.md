@@ -22,7 +22,7 @@ Laravel 所有的 contracts 放在一个单独的 [GitHub 代码库](https://git
 
 Laravel 的 [facades](/docs/{{version}}/facades) 提供一个简单的方法来使用服务，而不需要使用类型约束和在服务容器之外解析 contracts。大多数情况下，每个 facade 都有一个相应的 contract。
 
-不像 facades 那样，contracts 需要你为你的类显示的定义依赖关系。有些开发者喜欢这种显示的依赖定义，所以他们喜欢使用 contracts，而其他开发者更喜欢方便的 facades。
+不像 facades 那样，contracts 需要你为你的类显示地定义依赖关系。有些开发者喜欢这种显示的依赖定义，所以他们喜欢使用 contracts，而其他开发者更喜欢方便的 facades。
 
 > {tip} 大多数应用不管你是使用 facades 还是 contracts 都可以很好的工作，但是如果你打算构建扩展包的话，强烈建议使用 contracts，因为它们在扩展包的环境下更容易被测试。
 
